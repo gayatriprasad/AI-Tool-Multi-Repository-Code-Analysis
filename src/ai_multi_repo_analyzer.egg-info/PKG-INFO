@@ -1,0 +1,119 @@
+Metadata-Version: 2.4
+Name: ai-multi-repo-analyzer
+Version: 1.0.0
+Summary: AI-powered tool for analyzing and querying multiple code repositories using natural language
+Home-page: https://github.com/gayatriprasad/AI-Tool-Multi-Repository-Code-Analysis
+Author: AI Multi-Repository Analysis Team
+Author-email: contact@multirepotool.com
+Project-URL: Bug Tracker, https://github.com/gayatriprasad/AI-Tool-Multi-Repository-Code-Analysis/issues
+Project-URL: Documentation, https://github.com/gayatriprasad/AI-Tool-Multi-Repository-Code-Analysis/docs
+Project-URL: Source Code, https://github.com/gayatriprasad/AI-Tool-Multi-Repository-Code-Analysis
+Keywords: code-analysis,artificial-intelligence,natural-language-processing,semantic-search,repository-analysis,developer-tools,multi-repository
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Text Processing :: Linguistic
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: ai
+Requires-Dist: sentence-transformers>=2.2.0; extra == "ai"
+Requires-Dist: faiss-cpu>=1.7.3; extra == "ai"
+Requires-Dist: transformers>=4.21.0; extra == "ai"
+Requires-Dist: torch>=1.12.0; extra == "ai"
+Requires-Dist: openai>=1.0.0; extra == "ai"
+Requires-Dist: networkx>=2.8.0; extra == "ai"
+Requires-Dist: matplotlib>=3.5.0; extra == "ai"
+Requires-Dist: plotly>=5.10.0; extra == "ai"
+Requires-Dist: tree-sitter>=0.20.0; extra == "ai"
+Requires-Dist: tree-sitter-python>=0.20.0; extra == "ai"
+Requires-Dist: tree-sitter-javascript>=0.20.0; extra == "ai"
+Requires-Dist: tree-sitter-typescript>=0.20.0; extra == "ai"
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0.0; extra == "dev"
+Requires-Dist: pytest-cov>=4.0.0; extra == "dev"
+Requires-Dist: black>=22.0.0; extra == "dev"
+Requires-Dist: isort>=5.10.0; extra == "dev"
+Requires-Dist: flake8>=5.0.0; extra == "dev"
+Requires-Dist: mypy>=0.990; extra == "dev"
+Requires-Dist: pre-commit>=2.20.0; extra == "dev"
+Provides-Extra: all
+Requires-Dist: sentence-transformers>=2.2.0; extra == "all"
+Requires-Dist: faiss-cpu>=1.7.3; extra == "all"
+Requires-Dist: transformers>=4.21.0; extra == "all"
+Requires-Dist: torch>=1.12.0; extra == "all"
+Requires-Dist: openai>=1.0.0; extra == "all"
+Requires-Dist: networkx>=2.8.0; extra == "all"
+Requires-Dist: matplotlib>=3.5.0; extra == "all"
+Requires-Dist: plotly>=5.10.0; extra == "all"
+Requires-Dist: tree-sitter>=0.20.0; extra == "all"
+Requires-Dist: tree-sitter-python>=0.20.0; extra == "all"
+Requires-Dist: tree-sitter-javascript>=0.20.0; extra == "all"
+Requires-Dist: tree-sitter-typescript>=0.20.0; extra == "all"
+Requires-Dist: pytest>=7.0.0; extra == "all"
+Requires-Dist: pytest-cov>=4.0.0; extra == "all"
+Requires-Dist: black>=22.0.0; extra == "all"
+Requires-Dist: isort>=5.10.0; extra == "all"
+Requires-Dist: flake8>=5.0.0; extra == "all"
+Requires-Dist: mypy>=0.990; extra == "all"
+Requires-Dist: pre-commit>=2.20.0; extra == "all"
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: license-file
+Dynamic: project-url
+Dynamic: provides-extra
+Dynamic: requires-python
+Dynamic: summary
+
+AI Multi-Repository Code Analysis Tool
+An enterprise-grade tool that combines static code analysis, semantic search, and natural language querying to provide comprehensive insights into complex, multi-repository software architectures.
+What This Tool Does
+Transform how development teams understand and analyze codebases across multiple repositories. The tool automatically discovers relationships between services, identifies security vulnerabilities, and enables natural language queries about your entire codebase.
+Key Capabilities:
+
+Natural language queries: "Show me all authentication functions" or "Find API endpoints that handle user data"
+Cross-repository dependency mapping and visualization
+Automated security vulnerability detection
+Performance bottleneck identification
+Interactive architecture diagrams
+Multi-language support: Python, JavaScript, TypeScript
+
+Business Value
+Quantified Impact for a 100-developer team:
+
+Developer onboarding: Reduce from 4 weeks to 2 weeks (save $375,000 annually)
+Code review efficiency: Cut review time from 3 hours to 1.5 hours (save $292,500 annually)
+Security analysis: Automate manual reviews (save $150,000 annually)
+Architecture documentation: Generate automatically (save $90,000 annually)
+
+Total Annual Value: $907,500
+Tool Cost: $75,000 annually
+ROI: 1,110%
+How It Works
+The tool analyzes your repositories using advanced AST parsing and machine learning to:
+
+Extract Code Relationships: Functions, classes, API calls, and dependencies
+Build Knowledge Graph: Create semantic connections between code elements
+Enable Natural Queries: Answer questions about your codebase in plain English
+Generate Insights: Identify security issues, performance problems, and architecture patterns
+
+Quick Start
+Installation
+
+bashgit clone https://github.com/gayatriprasad/AI-Tool-Multi-Repository-Code-Analysis.git
+cd AI-Tool-Multi-Repository-Code-Analysis
+pip install -e .

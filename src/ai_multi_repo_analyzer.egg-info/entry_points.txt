@@ -1,0 +1,2 @@
+[console_scripts]
+multi-repo-analyzer = multi_repo_analyzer.cli.main:main
