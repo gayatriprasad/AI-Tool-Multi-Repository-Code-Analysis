@@ -44,3 +44,30 @@ A powerful tool for analyzing complex, multi-repository codebases:
 git clone https://github.com/gayatriprasad/AI-Tool-Multi-Repository-Code-Analysis.git
 cd AI-Tool-Multi-Repository-Code-Analysis
 pip install -e .
+```
+
+---
+
+##  Folder Structure
+
+src/
+  multi_repo_analyzer/
+    core/               → Analyzer, cache, config
+    analyzers/          → Python & JS/TS analyzers
+    search/             → Semantic engine
+    nlq/                → Natural language query engine
+    visualization/      → Graphs, reports
+    analysis/           → Advanced cross-repo analysis
+examples/               → Sample usage & repos
+tests/                  → Unit tests
+docs/                   → Documentation
+scripts/                → Dev tools
+
+
+## Documentation
+
+See docs/ for:
+- Installation
+- Architecture
+- API Reference
+- Advanced Usage
